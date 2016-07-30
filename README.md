@@ -1,7 +1,7 @@
 Simple Knack Wrapper
 ---
 
-This is a simple wrapper made for (https://www.knack.com)[https://www.knack.com]. 
+This is a simple wrapper made for [https://www.knack.com](https://www.knack.com). 
 It supports paginated queries and provides enough functionality to browse an object's data
 from python.
 
@@ -11,8 +11,7 @@ Let me know!
 A sample use case is a simple backup script that pulls in all the records from a list of
 object ids and outputs them to separate csv files per object id:
 
-
-'''
+```python
 import knack
 import csv
 import logging
@@ -43,8 +42,6 @@ if __name__ == '__main__':
     console.quicklook(filename)
     
   logging.info('Script finished successfully.')
-'''
+```
 
 Feel free to use/modify/comment.
-
-- Jose
