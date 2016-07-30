@@ -5,6 +5,9 @@ This is a simple wrapper made for [https://www.knack.com](https://www.knack.com)
 It supports paginated queries and provides enough functionality to browse an object's data
 from python.
 
+Dependencies: 'inflection'
+
+
 It has only been tested with root access keys but maybe it works with page access keys as well.
 Let me know!
 
