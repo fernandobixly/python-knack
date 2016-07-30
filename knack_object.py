@@ -2,8 +2,6 @@ from .base import Base
 from .field import Field
 from .record import Record
 import logging
-import profile
-import pstats
 import inflection
 
 class KnackObject(Base):
